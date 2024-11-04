@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public abstract class Shape {
+    public abstract double area();
 
-public class shape {
+    public double circumference() {
+        return 0.0;
+    }
 }
