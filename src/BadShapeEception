@@ -1,0 +1,7 @@
+public class BadShapeException extends Exception {
+
+    public BadShapeException(String komunikat) {
+        super(komunikat);
+    }
+
+}
